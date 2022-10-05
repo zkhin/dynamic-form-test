@@ -33,7 +33,7 @@ export const Field = ({
     <FieldContainer>
       {fieldComponent}
       {touched[field.name] && errors[field.name] && (
-        <Error>
+        <Error data-testid="test-error">
           {errors[field.name]}
         </Error>
       )}

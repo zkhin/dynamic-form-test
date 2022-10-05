@@ -30,6 +30,7 @@ export const Register = () => {
                 type={field.type}
                 placeholder={field.placeholder}
                 component={FieldComponent}
+                data-testid={field.id}
               >
                 {field.type === 'select' && (
                   <>
