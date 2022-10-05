@@ -15,6 +15,7 @@ export const Textarea = styled.textarea`
   padding: 6px 8px;
   border: 1px solid black;
   border-radius: 3px;
+  min-height: 50px;
 `;
 
 export const Select = styled.select`
